@@ -7,4 +7,4 @@ puts "----------"
 # Your code goes here ...
 @store1 = Store.find_by(id: 1)
 @store2 = Store.find_by(id: 2)
-@store1.update(name: 'Surrey', annual_revenue: 1200000, mens_apparel: true, womens_apparel: true)
+@store1.update(name: 'Seattle', annual_revenue: 1200000, mens_apparel: true, womens_apparel: true)
